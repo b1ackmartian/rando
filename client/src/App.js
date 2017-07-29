@@ -10,7 +10,7 @@ class App extends Component {
       this.getPasswords();
   }
 
-  getPassords = () => {
+  getPasswords = () => {
       // Get the passwords and store them in state
       fetch('/api/passwords')
         .then(res => res.json())
